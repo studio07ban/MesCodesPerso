@@ -19,7 +19,7 @@ for ( let i = 0; i < romanNumerals.length; i++) {
   while (number >= romanNumerals[i].value) {
       romanValue += romanNumerals[i].numeral;
       number -= romanNumerals[i].value;
-  }
+}
 }
   return romanValue
 }
